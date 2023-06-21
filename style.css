@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+  width: 7rem;
+  height: auto;
+}
+
+.center-nav {
+  display: flex;
+}
+
+.search {
+  display: flex;
+}
+
+.search input {
+  width: 30rem;
+  padding: 10px 15px;
+  border: 0.5px solid #ccc;
+}
+
+.search button {
+  border: none;
+  width: 3.5rem;
+}
+
+.mic {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgb(240, 240, 240);
+  padding: 10px 10px;
+  margin-left: 20px;
+}
+
+.mic img {
+  width: 1.3rem;
+}
+
+.right_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.right_nav i img {
+  width: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.tag {
+  border: 1px solid #ccc;
+  background-color: rgb(247, 247, 247);
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.light {
+  background: rgb(238, 238, 238);
+  color: rgb(67, 67, 67);
+}
+
+/* Side Conatainer */
+
+.side_container {
+  display: flex;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+
+aside img:hover {
+  cursor: pointer;
+}
+
+.side_icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.side_icons p {
+  font-size: 10px;
+  margin-top: -5px;
+}
+
+.bars {
+  margin-top: 20px;
+}
+
+.main_container {
+  width: 100%;
+}
+
+main {
+  min-height: 100vh;
+  background: rgb(240, 238, 238);
+  padding: 20px;
+}
+
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  padding: 10px;
+}
+
+.avatar-content {
+  padding-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.avatar img {
+  width: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.content h3 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.channel-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content-status {
+  display: flex;
+  gap: 10px;
+  font-size: 11px;
+}
